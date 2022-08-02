@@ -1,4 +1,4 @@
-
+#UPDATED THE READMEFILE ON AUGUST 2nd 2022 @8:54 PM
 # Getting Started with Create React App
 
 This is a nice project setup - Ananth
