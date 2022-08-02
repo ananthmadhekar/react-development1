@@ -17,7 +17,7 @@ This is really incredible.
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React and GIT basics
         </a>
       </header>
     </div>
