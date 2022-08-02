@@ -1,3 +1,1 @@
-https://github.com/ananthmadhekar/react-development1.git
-
-sjdhfksdhf
+this is lovely git command for stash
