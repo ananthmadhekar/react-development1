@@ -1,0 +1,29 @@
+
+<div class="upm-table-actions">
+  <div class="upm-table-actions-2">
+    <upm-table-search
+      [(searchText)]="filters.search"
+      (searchTextChange)="onSearch($event)">
+    </upm-table-search>
+    <span (click)="clearFilters()" class="upm-table-clear-filters">sdfdsf sdds324234234
+    </span>
+    <rp-export-menu
+      class="upm-table-export"
+      [config]="exportMenuConfig">
+    </rp-export-menu>
+  </div>
+</div>
+<add-rut-qualified-units-aside-filters
+[(filters)]="filters"
+(filtersChange)="onFiltersChange()">
+</add-rut-qualified-units-aside-filters>
+<upm-table
+  *ngIf="tableConfig"
+  [filterBy]="filterBy"
+  [config]="tableConfig">
+</upm-table>
+<rp-content-loader
+  [hidden]="!busy"
+  [loading]="busy">
+</rp-content-loader>
+
