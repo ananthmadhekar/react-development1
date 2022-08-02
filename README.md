@@ -1,6 +1,8 @@
 #UPDATED THE READMEFILE ON AUGUST 2nd 2022 @8:54 PM
 # Getting Started with Create React App
 
+#This is the readme file update @10:26 PM
+
 This is a nice project setup - Ananth
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
