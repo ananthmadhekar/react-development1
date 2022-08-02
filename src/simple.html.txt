@@ -1,10 +1,11 @@
+
 <div class="upm-table-actions">
   <div class="upm-table-actions-2">
     <upm-table-search
       [(searchText)]="filters.search"
       (searchTextChange)="onSearch($event)">
     </upm-table-search>
-    <span (click)="clearFilters()" class="upm-table-clear-filters">
+    <span (click)="clearFilters()" class="upm-table-clear-filters">sdfdsf
     </span>
     <rp-export-menu
       class="upm-table-export"
