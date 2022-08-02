@@ -5,7 +5,7 @@
       [(searchText)]="filters.search"
       (searchTextChange)="onSearch($event)">
     </upm-table-search>
-    <span (click)="clearFilters()" class="upm-table-clear-filters">sdfdsf
+    <span (click)="clearFilters()" class="upm-table-clear-filters">sdfdsf sdds324234234
     </span>
     <rp-export-menu
       class="upm-table-export"
